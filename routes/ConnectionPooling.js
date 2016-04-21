@@ -11,7 +11,7 @@ function connect()
 	var connection = mysql.createConnection({
 		host     : 'localhost',
 		user     : 'root',
-		password : 'nishanth',
+		password : 'root',
 		port: '3306',
 		database: 'VirtualMarketPlace'
 	});
